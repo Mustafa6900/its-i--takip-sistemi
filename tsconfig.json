@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "utils/supabase/middleware.tsx", "src/app/project/[id]/page.jsx", "src/app/project/[id]/[categoryId]/page.jsx", "src/app/account/account-form.tsx", "src/app/account/page.tsx", "src/app/auth/confirm/route.tsx"],
   "exclude": ["node_modules"]
 }

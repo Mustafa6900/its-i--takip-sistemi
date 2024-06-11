@@ -13,6 +13,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        pulse: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.2)' },
+        },
+      },
+      animation: {
+        pulse: 'pulse 3s ease-in-out infinite',
+      },
+    },
+    fontFamily: {
+      primary: "var(--font-jetbrainsMono)",
     },
   },
   plugins: [],
