@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "utils/supabase/middleware.tsx", "src/app/project/[id]/page.jsx", "src/app/project/[id]/[categoryId]/page.jsx", "src/app/account/account-form.tsx", "src/app/account/page.tsx", "src/app/auth/confirm/route.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/utils/supabase/middleware.tsx", "src/app/project/[id]/page.jsx", "src/app/project/[id]/[categoryId]/page.jsx", "src/app/account/account-form.tsx", "src/app/account/page.tsx", "src/app/auth/confirm/route.tsx", "src/app/utils/supabase/server.ts", "src/app/login/page.jsx", "src/app/login/actions.jsx"],
   "exclude": ["node_modules"]
 }
